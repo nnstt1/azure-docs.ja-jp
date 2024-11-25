@@ -7,16 +7,16 @@ ms.subservice: performance
 ms.custom: sqldbrb=1
 ms.devlang: ''
 ms.topic: how-to
-author: danimir
-ms.author: danil
-ms.reviewer: wiassaf, sstein
+author: NikaKinska
+ms.author: nnikolic
+ms.reviewer: mathoma, wiassaf
 ms.date: 1/14/2021
-ms.openlocfilehash: db24f280f66e567572821297cfc9bb9b1e19743b
-ms.sourcegitcommit: f28ebb95ae9aaaff3f87d8388a09b41e0b3445b5
+ms.openlocfilehash: e550f03de1cb1713c58bc96a7bc730b44a60017d
+ms.sourcegitcommit: b11257b15f7f16ed01b9a78c471debb81c30f20c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "98222345"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "111592782"
 ---
 # <a name="query-performance-insight-for-azure-sql-database"></a>Azure SQL Database の Query Performance Insight
 [!INCLUDE[appliesto-sqldb](../includes/appliesto-sqldb.md)]
@@ -186,7 +186,7 @@ Query Performance Insight の 2 つのメトリック (実行時間と実行回�
    > カスタム DTU グラフを使用して、クエリのパフォーマンス グラフと比較することをお勧めします。
    >
 
-## <a name="review-top-queries-per-execution-count&quot;></a>実行回数あたりの上位クエリを確認する
+## <a name="review-top-queries-per-execution-count"></a>実行回数あたりの上位クエリを確認する
 
 実行回数が多くてもデータベース自体には影響しない場合や、リソース使用率が低い場合でも、データベースを使用するユーザー アプリケーションの処理速度は低下する可能性があります。
 
